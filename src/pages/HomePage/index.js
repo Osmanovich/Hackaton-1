@@ -71,7 +71,7 @@ const HomePage = () => {
         <Heading />
 
         <Menu />
-
+{/* 
         <VideoContentWrapper>
           <VideoPlayerWrapper>
             <VideoPlayer
@@ -86,8 +86,15 @@ const HomePage = () => {
 
             {!isCommentsLoading && comments.map(commentToComponent)}
           </CommentsWrapper>
-        </VideoContentWrapper>
+        </VideoContentWrapper> */}
+<div className="md:flex md:flex-col md:flex-1">
+  <img className="m-5 w-72" src="https://q-xx.bstatic.com/xdata/images/hotel/max500/345088188.jpg?k=066884ede88e97e8fcc9a28f98fe25d4475b4f7a55d76753a6a36fa1b3935585&o="/>
+  
 
+
+
+
+</div>
         <RecommendationsWrapper>
           {recommendations.map(recToComponent)}
         </RecommendationsWrapper>
