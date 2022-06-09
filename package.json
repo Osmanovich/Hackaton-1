@@ -1,0 +1,36 @@
+{
+  "name": "react-course-5-a-solution",
+  "version": "2.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "7.17.3",
+    "@babel/plugin-proposal-optional-chaining": "7.16.7",
+    "@babel/preset-env": "7.16.11",
+    "@craco/craco": "6.4.3",
+    "@frukmruk/html": "0.4.2",
+    "@frukmruk/mockapi": "0.0.18",
+    "prettier": "2.6.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-router-dom": "5.1.2",
+    "tailwindcss": "3.0.23"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "autoprefixer": "9.6.0",
+    "postcss": "7.0.17",
+    "build:style": "tailwind build src/styles/index.pcss -c tailwind.js -o src/styles/tailwind-pre-build.css",
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

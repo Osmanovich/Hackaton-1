@@ -1,0 +1,10 @@
+/* set --debug var to 1 to show
+thin border around elements
+for layout debugging
+
+otherwise set to 0 when ready 
+for styling or done debugging */
+
+* {
+  --debug: 1;
+}
